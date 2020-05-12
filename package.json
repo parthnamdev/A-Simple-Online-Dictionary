@@ -1,0 +1,24 @@
+{
+  "name": "a-simple-online-dictionary",
+  "version": "1.1.0",
+  "description": "a simple dictionary based on data structurs and searching algorithms.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthnamdev/A-Simple-Online-Dictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthnamdev/A-Simple-Online-Dictionary/issues"
+  },
+  "homepage": "https://github.com/parthnamdev/A-Simple-Online-Dictionary#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
