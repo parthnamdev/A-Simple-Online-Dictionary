@@ -1,6 +1,7 @@
 body{
     min-width: 340px;
-    background-color: #5CD49F;
+    /* background-color: #5CD49F; */
+    background-color: #5CDB95;
     text-align: center;
 }
 #navigation,.searchBar, #tagLine{
@@ -56,7 +57,7 @@ a:hover{
     font-size: 5vw;
     font-weight: bold;
     font-family: 'Sacramento', cursive;
-    color: #40514E;
+    color: #2d3937;
 }
 .row{
     margin: 50px 0 0;
@@ -126,12 +127,6 @@ a:hover{
 .contri_back{
   background-color: #40514E;
   color:#5CD49F;
-}
-#developers .fas{
-    padding-right: ($spacer) !important;
-}
-#developers .far{
-    padding-right: ($spacer * 3) !important;
 }
 
 @media (min-width: 1280px){
@@ -269,13 +264,15 @@ a:hover{
         font-size: small;
     }
 }
-/* sticky search bar */
+/* sticky search bar---------------------------------------------------------------------*/
 #stickySearchBar{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 2% 13% 0;
+    padding: 2% 13% 1%;
     background-color:#5CD49F;
+    z-index: 3;
+    /* box-shadow: 0 2px 2px rgba(0,0,0,0.2); */
 }
 .sticky-search-box{
     background-color:#40514E;
@@ -310,6 +307,107 @@ a:hover{
     }
 #stickySearchBar .fa-search{
         font-size: small;
+}
+/* Meaning section------------------------------------------------------------------- */
+#meaningSection{
+    background-color:#8EE4AF;
+    text-align: left;
+    margin: 4% 13%; 
+    padding:10vw;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.word{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 3.5vw;
+    color: #40514E;
+}
+.meaning{
+  /* margin-top:50px; */
+  font-size: 1.8vw;
+  line-height: 2.3vw;
+  font-family: 'Cabin','Montserrat', sans-serif;
+  max-height:250px;
+  overflow-y:scroll; /*vertical scroll bar*/
+  color: #40514E;
+  
+}
+hr{
+    padding-top: 0;
+    margin-top: 0;
+    border-style: solid;
+    border-width: 1px;
+  }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #8EE4AF; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+/* Time section----------------------------------------------------------------------- */
+#timeSection{
+    background-color:#8EE4AF;
+    margin: 4% 13%;
+    padding:5vw;
+    border-radius: 20px;
+    line-height:2.3vw;
+    color:#2d3937;
+    font-family: 'Cabin', 'Montserrat', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+td{
+    padding: 10px;
+    font-size: 1.2vw;
+    color: #40514E;
+  }
+th{
+   font-size: 1.5vw;
+}
+/* graph section---------------------------------------------------------------------- */
+#graphSection{
+    background-color: #8EE4AF;
+    margin: 4% 13%;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 35px;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.graph-separator{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    align-self: center;
+    width: 70%;
+    padding-top: 0.1px;
+    border-color: #40514E;
+  }
+  .graph-titles{
+    font-weight: bold;
+    color: #40514e;
+  }
+
+/* know more page--------------------------------------------------------------------- */
+#know-more-carousel{
+    margin: 100px 0;
+}
+.know-more-image{
+    width:90%;
 }
 /*footer------------------------------------------------------------------------------ */
 

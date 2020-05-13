@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ribeye+Marrow&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&family=Montserrat+Subrayada&family=Ribeye+Marrow&family=Sacramento&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- favicon -->
@@ -60,6 +60,67 @@
             </script>
           </div>
     </section>
+    <section id="meaningSection">
+        <!--sub division of top1 containing cards of meaning and table of algorithm-->
+        <p class="word overflow" id="displayword">anonymous</p>
+        <!--word-->
+        <hr>
+        <p class="overflow">Execution time : <span id = "exectime">88.88s</span></p>
+        <!--time-->
+        <!--meaning-->
+        <p class="meaning overflow" id = "meaning">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non tellus orci ac auctor augue mauris augue neque gravida. Est pellentesque elit ullamcorper dignissim. Natoque penatibus et magnis dis. Egestas sed tempus urna et pharetra pharetra. Accumsan tortor posuere ac ut consequat semper viverra nam. A diam sollicitudin tempor id eu nisl nunc mi. Orci sagittis eu volutpat odio facilisis mauris sit. Sodales ut eu sem integer vitae justo eget magna. Mattis rhoncus urna neque viverra justo nec. Enim sed faucibus turpis in eu mi bibendum neque. Pellentesque eu tincidunt tortor aliquam nulla. A erat nam at lectus urna duis. Lacinia at quis risus sed. Et egestas quis ipsum suspendisse ultrices gravida.
+        </p>
+    </section>
+    <section id="timeSection" class="card">
+        <table>
+            <tr>
+              <th>
+                Algorithm
+              </th>
+              <th>
+                Time taken
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Linear Search
+              </td>
+              <td id = "t1">time1</td>
+            </tr>
+            <tr>
+              <td>
+                Binary Search
+              </td>
+              <td id = "t2">time2</td>
+            </tr>
+            <tr>
+              <td>
+                Interpolation Search
+              </td>
+              <td id = "t3">time3</td>
+            </tr>
+            <tr>
+              <td>Jump Search</td>
+              <td id = "t4">time4</td>
+            </tr>
+          </table>
+    </section>
+    <section id="graphSection">
+        <p class="graph-titles">Line chart</p>
+        <canvas id="chartjs-1" class="chartjs" width="962" height="481" style="display: block; height: 385px; width: 770px;"></canvas>
+        <hr class="graph-separator">
+        <p class="graph-titles">Bar chart</p>
+        <canvas id="chartjs-2" class="chartjs" width="962" height="481" style="display: block; height: 385px; width: 770px;"></canvas>
+    </section>
     <section id="developers">
         <p class="developersHeading"><span style="font-family: 'Ribeye Marrow', cursive;">D</span>evelopers</p>
       <div class="row mx-auto">
@@ -69,7 +130,7 @@
                 <div class="front">
                   <!-- front content -->
                   <div class="contri_front">
-                    <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x"></i> <br> <br>Hemanth Krishna<br>19BCT0230</span>
+                    <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x pr-3"></i> <br> <br>Hemanth Krishna<br>19BCT0230</span>
                   </div>
                 </div>
                 <div class="back">
@@ -82,12 +143,12 @@
                   <div class="front">
                     <!-- front content -->
                     <div class="contri_front">
-                      <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x"></i> <br> <br>Parth Namdev<br>19BCE0440</span>
+                      <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x pr-3"></i> <br> <br>Parth Namdev<br>19BCE0440</span>
                     </div>
                   </div>
                   <div class="back">
                     <!-- back content -->
-                    <div class="contri_back"><br /><span class="contri_content_back container-fluid"><i class="fas fa-edit fa-3x"></i><br> <br>Frontend</span><br /></div></div>
+                    <div class="contri_back"><br /><span class="contri_content_back container-fluid"><i class="fas fa-edit fa-3x pr-3"></i><br><br>Frontend</span><br /></div></div>
                   </div>
               </div>
               <div class="flip-container col-lg-3 col-md-4 col-sm-6" ontouchstart="this.classList.toggle('hover');">
@@ -95,12 +156,12 @@
                   <div class="front">
                     <!-- front content -->
                     <div class="contri_front">
-                      <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x"></i> <br> <br>Aryak Roy<br>19BCE2165</span>
+                      <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x pr-3"></i><br><br>Aryak Roy<br>19BCE2165</span>
                     </div>
                   </div>
                   <div class="back">
                     <!-- back content -->
-                    <div class="contri_back"><br /><span class="contri_content_back container-fluid"><i class="fas fa-edit fa-3x"></i><br> <br>Frontend</span><br /></div></div>
+                    <div class="contri_back"><br /><span class="contri_content_back container-fluid"><i class="fas fa-edit fa-3x pr-3"></i><br><br>Frontend</span><br /></div></div>
                   </div>
               </div>
               <div class="flip-container col-lg-3 col-md-4 col-sm-6" ontouchstart="this.classList.toggle('hover');">
@@ -108,12 +169,12 @@
                   <div class="front">
                     <!-- front content -->
                     <div class="contri_front">
-                      <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x"></i> <br> <br>Nupoor Raj<br>19BCT0230</span>
+                      <span class="contri_content_front container-fluid"><i class="far fa-user-circle fa-3x pr-3"></i><br><br>Nupoor Raj<br> 19BCE2145</span>
                     </div>
                   </div>
                   <div class="back">
                     <!-- back content -->
-                    <div class="contri_back"><br /><span class="contri_content_back container-fluid"><i class="fas fa-file-alt fa-3x"></i><br><br>Documentation <br>and <br>Research</span><br /></div></div>
+                    <div class="contri_back"><br /><span class="contri_content_back container-fluid"><i class="fas fa-file-alt fa-3x pr-3"></i><br><br>Documentation <br>and <br>Research</span><br/></div></div>
                   </div>
               </div>
             
