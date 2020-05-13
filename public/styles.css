@@ -1,15 +1,65 @@
 body{
     min-width: 340px;
-}
-#navigation, #searchBar, #developers{
-    margin: 7% 13%;
+    background-color: #5CD49F;
     text-align: center;
 }
+#navigation,.searchBar, #tagLine{
+    margin: 4% 13%;
+}
 
+/* navbar------------------------------------------------------------------------------------------- */
+
+.navbar-brand{
+    font-size: 6.5vw;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    color: #40514E  ;
+}
+.knowMoreButton{
+    border-radius: 25px;
+    background-color: #40514E !important;
+    color: #40514E !important;
+}
+
+.nav-link{
+    color: #5CD49F;
+    font-family: 'Cabin', 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.knowMoreButton:hover{
+    background-color: #2d3937 !important;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.knowMoreButton:hover a{
+    color: white;
+}
+a:hover{
+    color:#2d3937;
+}
+/* tag line-----------------------------------------------------------------------------------------*/
+#tagLine{
+    padding-bottom: 30vh;
+    padding-top: 5vh;
+    font-family: 'Cabin', 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #40514E;
+}
 /* developers section------------------------------------------------------------------------------- */
-
+#developers{
+    background-color: #4d8c72;
+    padding: 2% 13%;
+}
+.developersHeading{
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    color: #40514E;
+}
 .row{
-    margin: 30px 0 0;
+    margin: 50px 0 0;
 }
 .flip-container {
   perspective: 1000px;
@@ -218,6 +268,48 @@ body{
     .fa-search{
         font-size: small;
     }
+}
+/* sticky search bar */
+#stickySearchBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 2% 13% 0;
+    background-color:#5CD49F;
+}
+.sticky-search-box{
+    background-color:#40514E;
+    height:40px ;/*40*/
+    width:80%;
+    border-radius: 80px;/*40*/
+    }
+.sticky-input-box{
+    border: none;
+    outline:none;
+    background:none;
+    float:left;
+    color: #8ee4af;
+    font-size:15px;/*16*/
+    line-height: 40px;/*40*/
+    width: 70%;
+    padding:0 20px;
+    }
+.sticky-button
+    {
+    float: right;
+    text-decoration:none;
+    text-align:center;
+    border-radius:50%;
+    width:30px;/*40*/
+    height:30px;/*40*/
+    line-height:30px;/*40*/
+    background-color:#5CD49F;
+    color:#40514E;
+    margin: 5px;
+    opacity: 0.9;
+    }
+#stickySearchBar .fa-search{
+        font-size: small;
 }
 /*footer------------------------------------------------------------------------------ */
 
