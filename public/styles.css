@@ -65,6 +65,7 @@ body{
   border-radius: 10px;
   font-family: 'Cabin', 'Montserrat', sans-serif;
   padding: 30px 5%;
+  
 }
 
 .contri_front{
@@ -75,6 +76,12 @@ body{
 .contri_back{
   background-color: #40514E;
   color:#5CD49F;
+}
+#developers .fas{
+    padding-right: ($spacer) !important;
+}
+#developers .far{
+    padding-right: ($spacer * 3) !important;
 }
 
 @media (min-width: 1280px){
