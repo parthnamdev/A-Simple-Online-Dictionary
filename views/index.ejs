@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li
-              class="nav-item btn btn-dark col-lg-12 col-sm-4 mx-auto knowMoreButton"
+              class="nav-item btn btn-dark knowMoreButton"
             >
               <a class="nav-link" href="/know-more">Know more ></a>
             </li>
@@ -34,20 +34,20 @@
     </section>
     <section id="searchBar">
       <div class="search-box mx-auto">
-        <form method="post" action="/uploaded">
+        <form method="post" action="/selectAlgorithm">
           <input
             method="post"
             name="input"
-            action="/uploaded"
+            action=""
             class="input-box"
             type="text"
             id="word_input"
             autocomplete="off"
             placeholder="Search"
           />
-          <a class="button" onclick="callPopUp()" href="#" id="searchbtn">
+          <button type="submit" class="button" href="" id="searchbtn">
             <i class="fas fa-search"></i>
-          </a>
+          </button>
         </form>
         <script>
           var input = document.getElementById("word_input");
@@ -68,6 +68,5 @@
       Wanna search a meaning ? ... Here you go !
     </section>
 <%- include("partials/developers"); -%>
-<%- include("partials/popUp"); -%>
     <script src="file.js"></script>
 <%- include("partials/bottom"); -%>
