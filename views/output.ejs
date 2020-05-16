@@ -40,12 +40,11 @@
                   document.getElementById("searchbtn").click();
                 }
               });
-              
             </script>
           </div>
     </section>
     <section id="meaningSection">
-        <!--sub division of top1 containing cards of meaning and table of algorithm-->
+        <!--containing meaning -->
         <p class="word" id="displayword"><%= word %></p>
         <!--word-->
         <hr>
@@ -115,8 +114,6 @@
           {
             label: "Time comparison",
           
-            // data: [data[1] , data[3], data[4], data[5]],
-            // data: [t1 , t2, t3, t4],
             data: [<%= t1 %>, <%= t2 %>, <%= t3 %>, <%= t4 %>],
             fill: false,
             backgroundColor: [
@@ -145,10 +142,6 @@
           {
             label: "Time comparison",
           
-            // data: [data[1] , data[3], data[4], data[5]],
-            // data: [t1 , t2, t3, t4],
-            // data: [reqT1, reqT2, reqT3, reqT4],
-            // data: [20, 40, 50, 60],
             data: [<%= t1 %>, <%= t2 %>, <%= t3 %>, <%= t4 %>],
             fill: false,  
             backgroundColor: [
