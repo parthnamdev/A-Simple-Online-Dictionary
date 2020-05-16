@@ -34,9 +34,8 @@
     </section>
     <section id="searchBar">
       <div class="search-box mx-auto">
-        <form method="post" action="/selectAlgorithm">
+        <form method="POST" action="/selectAlgorithm" id="wordSubmit">
           <input
-            method="post"
             name="input"
             action=""
             class="input-box"
@@ -44,6 +43,7 @@
             id="word_input"
             autocomplete="off"
             placeholder="Search"
+            required
           />
           <button type="submit" class="button" href="" id="searchbtn">
             <i class="fas fa-search"></i>
@@ -68,5 +68,4 @@
       Wanna search a meaning ? ... Here you go !
     </section>
 <%- include("partials/developers"); -%>
-    <script src="file.js"></script>
 <%- include("partials/bottom"); -%>
