@@ -23,7 +23,7 @@
     "chart.js": "^2.9.4",
     "ejs": "^3.1.2",
     "execution-time": "^1.4.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "pretty-checkbox": "^3.0.3"
   }
 }
